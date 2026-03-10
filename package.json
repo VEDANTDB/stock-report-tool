@@ -1,0 +1,27 @@
+{
+  "name": "stock-report-tool",
+  "version": "1.0.0",
+  "dependencies": {
+    "docx": "^9.5.3"
+  }
+}
+```
+Click **"Commit changes"**
+
+---
+
+**File 3** — Name it `.gitignore`, paste this content:
+```
+node_modules/
+__pycache__/
+*.pyc
+*.docx
+.env
+```
+Click **"Commit changes"**
+
+---
+
+**File 4** — Name it `.env.example`, paste this content:
+```
+ANTHROPIC_API_KEY=sk-ant-your-key-here
